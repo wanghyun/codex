@@ -1,0 +1,12 @@
+{
+  "hero": {
+    "title": "기록",
+    "subtitle": "기록 소개",
+    "image": { "src": "https://picsum.photos/1200/500?random=21", "alt": "records" }
+  },
+  "gallery": [
+    { "src": "https://picsum.photos/400/300?random=22", "alt": "record1", "caption": "활동 기록 1" },
+    { "src": "https://picsum.photos/400/300?random=23", "alt": "record2", "caption": "활동 기록 2" },
+    { "src": "https://picsum.photos/400/300?random=24", "alt": "record3", "caption": "활동 기록 3" }
+  ]
+}

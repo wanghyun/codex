@@ -1,0 +1,4 @@
+<?php
+session_start();
+header('Content-Type: application/json');
+echo json_encode(['authenticated' => !empty($_SESSION['is_admin'])]);

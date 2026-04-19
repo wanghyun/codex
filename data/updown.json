@@ -1,0 +1,12 @@
+{
+  "hero": {
+    "title": "Updown",
+    "subtitle": "업다운 소개",
+    "image": { "src": "https://picsum.photos/1200/500?random=31", "alt": "updown" }
+  },
+  "feature": {
+    "title": "핵심 기능",
+    "desc": "설명",
+    "link": { "href": "/ykick.html", "label": "자세히" }
+  }
+}

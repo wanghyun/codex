@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "title": "YKick",
+    "subtitle": "YKICK 소개",
+    "background": "https://picsum.photos/1200/500?random=41"
+  },
+  "programs": [
+    { "title": "킥오프", "desc": "입문 프로그램", "link": { "href": "/records.html", "label": "보기" } },
+    { "title": "트레이닝", "desc": "심화 프로그램", "link": { "href": "/culture.html", "label": "보기" } }
+  ]
+}

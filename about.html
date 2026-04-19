@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About</title>
+</head>
+<body data-page="about">
+  <div data-include="header"></div>
+  <main>
+    <section>
+      <h1 data-edit="hero.title">About Title</h1>
+      <p data-edit="hero.subtitle">About Subtitle</p>
+      <div class="hero-image" data-edit-image="hero.background"></div>
+      <button type="button" class="edit-image-btn" data-edit-image-trigger="hero.background" hidden>이미지 변경</button>
+    </section>
+  </main>
+  <div data-include="footer"></div>
+  <script src="/js/page-data.js"></script>
+  <script src="/js/editor.js"></script>
+  <script src="/js/site.js"></script>
+</body>
+</html>

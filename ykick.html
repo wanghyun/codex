@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>YKick</title></head>
+<body data-page="ykick">
+  <div data-include="header"></div>
+  <main>
+    <section>
+      <h1 data-edit="hero.title">YKick</h1>
+      <p data-edit="hero.subtitle">YKICK 소개</p>
+      <div class="hero-image" data-edit-image="hero.background"></div>
+      <button type="button" class="edit-image-btn" data-edit-image-trigger="hero.background" hidden>이미지 변경</button>
+    </section>
+    <section data-render="programs" data-render-type="cards"></section>
+  </main>
+  <div data-include="footer"></div>
+  <script src="/js/page-data.js"></script><script src="/js/editor.js"></script><script src="/js/site.js"></script>
+</body>
+</html>
