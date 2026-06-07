@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Index</title></head>
+<body data-page="index">
+  <div data-include="header"></div>
+  <main>
+    <section>
+      <h1 data-edit="hero.title">메인 타이틀</h1>
+      <p data-edit="hero.subtitle">메인 서브타이틀</p>
+      <div class="hero-image" data-edit-image="hero.background"></div>
+      <button type="button" class="edit-image-btn" data-edit-image-trigger="hero.background" hidden>이미지 변경</button>
+      <a data-edit-link="hero.cta" href="#">더 보기</a>
+    </section>
+    <section data-render="highlights" data-render-type="cards"></section>
+  </main>
+  <div data-include="footer"></div>
+  <script src="/js/page-data.js"></script><script src="/js/editor.js"></script><script src="/js/site.js"></script>
+</body>
+</html>

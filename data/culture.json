@@ -1,0 +1,12 @@
+{
+  "hero": {
+    "title": "Culture",
+    "subtitle": "문화 소개",
+    "image": { "src": "https://picsum.photos/1200/500?random=51", "alt": "culture" }
+  },
+  "activities": [
+    { "src": "https://picsum.photos/400/300?random=52", "alt": "activity1", "caption": "활동 사진 1" },
+    { "src": "https://picsum.photos/400/300?random=53", "alt": "activity2", "caption": "활동 사진 2" },
+    { "src": "https://picsum.photos/400/300?random=54", "alt": "activity3", "caption": "활동 사진 3" }
+  ]
+}

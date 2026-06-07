@@ -1,0 +1,13 @@
+{
+  "hero": {
+    "title": "메인 타이틀",
+    "subtitle": "메인 서브타이틀",
+    "background": "https://picsum.photos/1200/500?random=11",
+    "cta": { "href": "/about.html", "label": "더 보기" }
+  },
+  "highlights": [
+    { "title": "프로그램 A", "desc": "설명 A", "link": { "href": "/records.html", "label": "바로가기" } },
+    { "title": "프로그램 B", "desc": "설명 B", "link": { "href": "/updown.html", "label": "바로가기" } },
+    { "title": "프로그램 C", "desc": "설명 C", "link": { "href": "/culture.html", "label": "바로가기" } }
+  ]
+}

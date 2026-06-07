@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Updown</title></head>
+<body data-page="updown">
+  <div data-include="header"></div>
+  <main>
+    <section>
+      <h1 data-edit="hero.title">Updown</h1>
+      <p data-edit="hero.subtitle">업다운 소개</p>
+      <img data-edit-image="hero.image" src="" alt="updown hero" />
+      <button type="button" class="edit-image-btn" data-edit-image-trigger="hero.image" hidden>이미지 변경</button>
+    </section>
+    <section>
+      <h2 data-edit="feature.title">핵심 기능</h2>
+      <p data-edit="feature.desc">설명</p>
+      <a data-edit-link="feature.link" href="#">자세히</a>
+    </section>
+  </main>
+  <div data-include="footer"></div>
+  <script src="/js/page-data.js"></script><script src="/js/editor.js"></script><script src="/js/site.js"></script>
+</body>
+</html>
